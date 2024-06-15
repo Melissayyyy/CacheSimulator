@@ -1,0 +1,178 @@
+cfg: 8 1 16 1 100 1
+---
+Total Hit Race:86.6468%
+Load Hit Race:92.51%
+Store Hit Race:87.32%
+Total Run Time:4526152
+AVG MA Latency:9.27
+
+
+cfg: 8 1 32 1 100 1
+---
+Total Hit Rate:87.4514%
+Load Hit Rate:93.10%
+Store Hit Rate:87.89%
+Total Run Time:4238452
+AVG MA Latency:8.68
+
+
+cfg: 8 1 64 1 100 1
+---
+Total Hit Rate:88.0234%
+Load Hit Rate:93.67%
+Store Hit Rate:88.15%
+Total Run Time:3983052
+AVG MA Latency:8.16
+
+
+cfg: 8 1 128 1 100 1
+---
+Total Hit Rate:88.6187%
+Load Hit Rate:94.10%
+Store Hit Rate:88.40%
+Total Run Time:3788252
+AVG MA Latency:7.76
+
+
+cfg: 8 1 256 1 100 1
+---
+Total Hit Rate:88.8711%
+Load Hit Rate:94.22%
+Store Hit Rate:88.61%
+Total Run Time:3721852
+AVG MA Latency:7.62
+
+
+cfg: 32 1 16 1 100 1
+---
+Total Hit Race:93.4652%
+Load Hit Race:95.80%
+Store Hit Race:94.94%
+Total Run Time:2599552
+AVG MA Latency:5.33
+
+
+cfg: 32 1 32 1 100 1
+---
+Total Hit Race:94.3649%
+Load Hit Race:96.52%
+Store Hit Race:95.28%
+Total Run Time:2278452
+AVG MA Latency:4.67
+
+
+cfg: 32 1 64 1 100 1
+---
+Total Hit Race:95.1826%
+Load Hit Race:97.22%
+Store Hit Race:95.44%
+Total Run Time:1974152
+AVG MA Latency:4.04
+
+
+cfg: 32 1 128 1 100 1
+---
+Total Hit Race:95.8681%
+Load Hit Race:97.72%
+Store Hit Race:95.69%
+Total Run Time:1750352
+AVG MA Latency:3.59
+
+
+cfg: 32 1 256 1 100 1
+---
+Total Hit Race:96.0725%
+Load Hit Race:97.83%
+Store Hit Race:95.79%
+Total Run Time:1695952
+AVG MA Latency:3.47
+
+
+cfg: 64 1 16 1 100 1
+---
+Total Hit Race:94.7258%
+Load Hit Race:96.36%
+Store Hit Race:96.62%
+Total Run Time:2246152
+AVG MA Latency:4.60
+
+
+cfg: 64 1 32 1 100 1
+---
+Total Hit Race:95.7030%
+Load Hit Race:97.18%
+Store Hit Race:96.94%
+Total Run Time:1883452
+AVG MA Latency:3.86
+
+
+cfg: 64 1 64 1 100 1
+---
+Total Hit Race:96.6572%
+Load Hit Race:97.99%
+Store Hit Race:97.09%
+Total Run Time:1537452
+AVG MA Latency:3.15
+
+
+cfg: 64 1 128 1 100 1
+---
+Total Hit Race:97.4090%
+Load Hit Race:98.53%
+Store Hit Race:97.33%
+Total Run Time:1294752
+AVG MA Latency:2.65
+
+
+cfg: 64 1 256 1 100 1
+---
+Total Hit Race:97.5917%
+Load Hit Race:98.63%
+Store Hit Race:97.38%
+Total Run Time:1246352
+AVG MA Latency:2.55
+
+
+cfg: 128 1 16 1 100 1
+---
+Total Hit Race:95.1851%
+Load Hit Race:96.52%
+Store Hit Race:97.45%
+Total Run Time:2119352
+AVG MA Latency:4.34
+
+
+cfg: 128 1 32 1 100 1
+---
+Total Hit Race:96.3679%
+Load Hit Race:97.48%
+Store Hit Race:97.82%
+Total Run Time:1694152
+AVG MA Latency:3.47
+
+
+cfg: 128 1 64 1 100 1
+---
+Total Hit Race:97.3635%
+Load Hit Race:98.37%
+Store Hit Race:97.95%
+Total Run Time:1316852
+AVG MA Latency:2.70
+
+
+cfg: 128 1 128 1 100 1
+---
+Total Hit Race:98.2153%
+Load Hit Race:98.99%
+Store Hit Race:98.18%
+Total Run Time:1042152
+AVG MA Latency:2.13
+
+
+cfg: 128 1 256 1 100 1
+---
+Total Hit Race:98.3964%
+Load Hit Race:99.10%
+Store Hit Race:98.22%
+Total Run Time:993352
+AVG MA Latency:2.03
