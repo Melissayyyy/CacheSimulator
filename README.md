@@ -2,17 +2,17 @@
 (计组cachelab实验）
 
 ## 实验内容和目的
-实现cache模拟器。读取配置文件，按配置文件实现cache模拟器。对给出的跟踪文件进行回放，计算并输出cache模拟器的性能参数。
-通过比较理解cache块大小对cache性能的影响、cache关联性对cache性能的影响、cache总大小对cache性能的影响。
+实现cache模拟器。读取配置文件，按配置文件实现cache模拟器。对给出的跟踪文件进行回放，计算并输出cache模拟器的性能参数。  
+通过比较理解cache块大小对cache性能的影响、cache关联性对cache性能的影响、cache总大小对cache性能的影响。  
 
 ## 命令行的使用
-编译生成cachesim程序：
-gcc csim.c -o cachesim 
-cachesim -c cfg.txt -t ls.trace [-o ls.trace.out]
-其中：
--c 后面的参数指定配置文件，配置文件的格式见2.2；
--t 后面的参数指定跟踪文件，跟踪文件的格式见2.3；
--o 后面的参数指定输出文件，输入文件的格式见2.4；该参数是可选的([]意味着该参数可以不写)，此时直接输出到标准输出。
+编译生成cachesim程序：  
+gcc csim.c -o cachesim   
+cachesim -c cfg.txt -t ls.trace [-o ls.trace.out]  
+其中：  
+-c 后面的参数指定配置文件，配置文件的格式见2.2；  
+-t 后面的参数指定跟踪文件，跟踪文件的格式见2.3；  
+-o 后面的参数指定输出文件，输入文件的格式见2.4；该参数是可选的([]意味着该参数可以不写)，此时直接输出到标准输出。  
 
 
 ## 配置文件格式：
