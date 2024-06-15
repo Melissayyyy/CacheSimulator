@@ -125,7 +125,7 @@ void LRU_update_R_d(int op_s, int op_tag, Cache *mycache) // 对于load指令
 
 输出：
 
-![image-20240615154030218](images/image-20240615154030218.png)
+![image-20240615154030218](image-20240615154030218.png)
 
 （更多输出结果请见 results_blocksize.txt 文件）
 
@@ -149,7 +149,7 @@ void LRU_update_R_d(int op_s, int op_tag, Cache *mycache) // 对于load指令
 
 为了研究不同关联性对命中率的影响，固定cache大小情况下，cache大小取128KB，块大小取128KB，关联性选择全相联、直接映射、2路组相联、4路组相联、8路组相联，采用写分配、LRU替换规则。记录输出结果：
 
-![image-20240615170846217](images/image-20240615170846217.png)
+![image-20240615170846217](image-20240615170846217.png)
 
 可见**直接映射的总运行时间很长，且总命中率最低**，这是因为关联度低，主存的每一块映射到一个固定的cache行，可能导致频繁cache装入。因为直接映射的 total_run_time 太大了，作图时我去掉了直接映射的数据点。
 
