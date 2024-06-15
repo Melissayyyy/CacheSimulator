@@ -137,7 +137,7 @@ void LRU_update_R_d(int op_s, int op_tag, Cache *mycache) // 对于load指令
 
 为了研究不同cache大小情况下，不同cache块大小对命中率的影响，将块大小取8、32、64、128、256字节，cache大小取16KB、32KB、64KB、128KB、256kb，采用直接映射、写分配、LRU替换规则，作图：
 
-![total_hit_rate](images/total_hit_rate-1718459352920-3.png)
+![total_hit_rate](total_hit_rate-1718459352920-3.png)
 
 由图和输出结果可知，block 大小与 cache 大小有关。**块大小越大，cache 中的行数越少，运行的总时长越短，命中率会提高，这是更好地利用了空间局部性的结果。但对于较小的cache，块大小很大时会导致总命中率降低，**可能是因为此时缓存行数较少，用于存储不同数据的空间也会相应减少；缓存中存储了很多“无用”的数据，而需要的数据可能因为缓存空间不足而被逐出导致缓存命中率下降。因此结论是，cache大小一定时，块大小即不能太大，也不能太小。
 
@@ -165,11 +165,11 @@ void LRU_update_R_d(int op_s, int op_tag, Cache *mycache) // 对于load指令
 
 block size = 128 时：
 
-![cache_performance_Associativity](images/cache_performance_Associativity.png)
+![cache_performance_Associativity](cache_performance_Associativity.png)
 
 block size = 256 时：
 
-![cache_performance_Associativity_blocksize256](images/cache_performance_Associativity_blocksize256.png)
+![cache_performance_Associativity_blocksize256](cache_performance_Associativity_blocksize256.png)
 
 ## 4 实验结论
 
